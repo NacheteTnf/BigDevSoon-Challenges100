@@ -1,0 +1,6 @@
+/* Add your CSS here. Utilize Tailwind classes or write custom styles to bring your unique design to life. */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+.bg-custom-cardBackground { background-color: #F1F1C6; }
+.bg-custom-primary { background-color: #E03F8C; }

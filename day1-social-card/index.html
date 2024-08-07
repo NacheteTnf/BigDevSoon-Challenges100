@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigDevSoon Challenge</title>
+
+    <!-- TailwindCSS for styling. Feel free to integrate other libraries as needed -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Add your external script links here, if any -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body
+    class="bg-custom-cardBackground flex flex-col items-center justify-center min-h-screen"
+  >
+    <div class="shadow-2xl rounded-b-3xl">
+      <!-- Logo and Title -->
+      <img
+        src="./assets/Proyecto Quitar fondo.png"
+        alt="BigDevSoon challenge 1 picture"
+        width="600px"
+        class="text-gray-800 space-y-4 rounded-t-3xl max-w-md md:max-w-lg"
+      />
+
+      <section class="text-gray-800 p-8 space-y-4 max-w-md md:max-w-lg">
+        <!-- Introduction and Instructions -->
+        <div>
+          <h1 class="text-3xl text-center font-medium tracking-widest">
+            Johnny Rogers
+          </h1>
+          <p class="text-sm text-center text-gray-400">@jonnyrogers</p>
+        </div>
+
+        <!-- Encouragement for Creativity and Interaction -->
+        <ul class="flex m-12 justify-around py-8">
+          <li>
+            <svg
+              class="w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              class="w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              class="w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              class="w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              class="w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              fill="#000000"
+              viewBox="0 0 51.054 51.055"
+            >
+              <g>
+                <path
+                  d="M44.242,8.227C43.164,7.062,41.982,6,40.707,5.052C36.458,1.894,31.215,0,25.527,0C19.176,0,13.375,2.346,8.902,6.198   c-1.197,1.03-2.299,2.165-3.288,3.398c-3.504,4.372-5.613,9.905-5.613,15.93c0,6.022,2.109,11.559,5.612,15.929   c0.988,1.232,2.091,2.37,3.289,3.4c4.472,3.853,10.274,6.199,16.625,6.199c6.837,0,13.044-2.721,17.632-7.113   c1.143-1.096,2.179-2.295,3.104-3.585c3.001-4.185,4.79-9.298,4.79-14.829C51.052,18.849,48.455,12.781,44.242,8.227z    M41.123,11.822c2.748,3.123,4.572,7.067,5.056,11.416h-8.622C37.603,19.014,38.908,15.089,41.123,11.822z M32.822,23.238H27.66   V4.859c3.684,0.381,7.082,1.724,9.943,3.776C34.642,12.763,32.871,17.794,32.822,23.238z M23.395,4.855v18.383h-5.695   c-0.461-5.134-2.454-9.829-5.509-13.642C15.29,6.998,19.155,5.29,23.395,4.855z M8.902,13.093   c2.171,2.896,3.603,6.367,4.024,10.146H4.878C5.299,19.46,6.731,15.988,8.902,13.093z M4.84,27.506h8.126   c-0.374,3.896-1.832,7.479-4.063,10.452C6.672,34.983,5.214,31.401,4.84,27.506z M17.717,27.506h5.676v18.689   c-4.238-0.436-8.104-2.143-11.203-4.74C15.306,37.568,17.311,32.76,17.717,27.506z M27.66,46.2V27.506h5.502   c0.818,5.068,3.117,9.646,6.461,13.26C36.404,43.743,32.255,45.727,27.66,46.2z M42.744,37.168   c-2.375-2.697-4.062-6.009-4.791-9.662h8.262C45.876,31.059,44.648,34.36,42.744,37.168z"
+                />
+              </g>
+            </svg>
+          </li>
+        </ul>
+
+        <p class="text-sm text-center font-bold m-6">
+          Crafting brand and communication strategies, creating visual designs,
+          leading art direction, and capturing portraits through photography.
+        </p>
+        <footer class="flex pt-10 mx-3 justify-between">
+          <button class="text-white bg-custom-primary py-2 px-12 rounded-3xl">
+            Follow
+          </button>
+          <button
+            class="border text-gray-400 border-gray-400 py-2 px-12 rounded-3xl"
+          >
+            Message
+          </button>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
