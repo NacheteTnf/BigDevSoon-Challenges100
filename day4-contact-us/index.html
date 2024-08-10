@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigDevSoon Challenge</title>
+
+    <!-- TailwindCSS for styling. Feel free to integrate other libraries as needed -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Add your external script links here, if any -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="flex flex-col items-center justify-center min-h-screen">
+    <div class="flex m-3">
+      <div class="text-white p-3">
+        <h1 class="text-4xl font-bold pb-3">Contact Us</h1>
+        <p class="font-light">
+          Get in touch with us! Whether you have questions, feedback, or just
+          want to say hello, we're here for you.
+        </p>
+
+        <div class="bocadillo-cuadrado p-2 mt-20">
+          <p>Widler, Lockman and McClure</p>
+          <p class="font-thin text-sm pt-1">3629 N Cole Rd, Boise, Illinois</p>
+        </div>
+        <span class="punto shadow-lg shadow-black"></span>
+      </div>
+
+      <div
+        class="bg-white p-8 space-y-4 shadow rounded-xl max-w-md md:max-w-lg"
+      >
+        <p>Send us a Message</p>
+
+        <div>
+          <input
+            type="text"
+            class="border rounded-xl p-1.5 text-sm mb-3 w-full"
+            placeholder="Name"
+          />
+          <input
+            type="text"
+            class="border rounded-xl p-1.5 text-sm mb-3 w-full"
+            placeholder="Email"
+          />
+          <input
+            type="text"
+            class="border rounded-xl p-1.5 text-sm w-full"
+            placeholder="Phone"
+          />
+        </div>
+        <p class="text-gray-500 text-sm">
+          Preferred contact method of communication
+        </p>
+        <div class="flex text-gray-500">
+          <p class="flex text-center">
+            <input class="mr-1" type="radio" />Email
+          </p>
+          <p class="flex text-center ml-5">
+            <input class="mx-2" type="radio" checked /> Phone
+          </p>
+        </div>
+        <textarea
+          class="border rounded-xl p-4"
+          name="Message"
+          cols="40"
+        ></textarea>
+        <div class="pt-20">
+          <button class="bg-pink-600 text-white p-2 rounded-3xl w-full">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

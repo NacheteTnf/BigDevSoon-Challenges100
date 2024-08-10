@@ -1,0 +1,33 @@
+/* Add your CSS here. Utilize Tailwind classes or write custom styles to bring your unique design to life. */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(0deg, rgba(164,9,103,1) 11%, rgba(73,42,218,1) 85%);
+  }
+
+  .bocadillo-cuadrado {
+    position: relative;
+    width: 300px;
+    background: #FE007A;
+    box-shadow: 1px 12px 33px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.bocadillo-cuadrado:before {
+    border: 25px solid #FE007A;
+    content: '';
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    bottom: -48px;
+    left: calc(50% - 25px)
+}
+
+.punto{
+    border: 10px solid #FE007A;
+    border-radius: 100%;
+    content: '';
+    position: absolute;
+    top: 420px;
+    left: calc(16.8% + 25px)
+
+}
