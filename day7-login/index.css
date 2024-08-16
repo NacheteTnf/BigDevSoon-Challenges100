@@ -1,0 +1,21 @@
+/* Add your CSS here. Utilize Tailwind classes or write custom styles to bring your unique design to life. */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.background-image {
+  /* Usar la imagen como fondo */
+  background-image: url("./Sin\ título.png");
+  /* Hacer que la imagen cubra todo el área */
+  background-size: cover;
+  /* Asegurar que cubra todo el alto y ancho de la pantalla */
+  background-position: center;
+  /* Para evitar repeticiones de la imagen */
+  background-repeat: no-repeat;
+  /* Hacer que el contenedor ocupe todo el espacio disponible */
+  width: 100%;
+  height: 100%;
+}
